@@ -128,7 +128,7 @@ export const PaymentModal: React.FC<{ onOrderPlaced: () => void }> = ({ onOrderP
               <div className="w-24 h-24 bg-white p-2 rounded-xl mx-auto border border-[#ece8e1] shadow-inner flex items-center justify-center">
                 <QrCode className="w-20 h-20 text-[#2d2a26]" />
               </div>
-              <p className="text-xs font-mono text-stone-500">Scan QR Code or Enter UPI ID: hotelguntewari@upi</p>
+              <p className="text-xs font-mono text-stone-500">Scan QR Code or Enter UPI ID: hotelmalak@upi</p>
             </div>
           )}
 

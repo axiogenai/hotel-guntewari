@@ -25,7 +25,7 @@ export const LocationFooter: React.FC = () => {
                 <span className="font-serif-display text-lg text-[#c9a263] font-bold">G</span>
               </div>
               <div>
-                <h2 className="font-serif-display text-xl font-medium text-white">Hotel Guntewari</h2>
+                <h2 className="font-serif-display text-xl font-medium text-white">Hotel Malak</h2>
                 <p className="text-[10px] uppercase tracking-[0.2em] text-[#c9a263]">Pure Veg Heritage</p>
               </div>
             </div>
@@ -39,7 +39,7 @@ export const LocationFooter: React.FC = () => {
               <a href="#" className="w-8 h-8 rounded-lg bg-white/[0.06] border border-white/[0.08] flex items-center justify-center hover:bg-[#c9a263] hover:border-[#c9a263] transition-all" aria-label="Website">
                 <Globe className="w-3.5 h-3.5 text-stone-400" />
               </a>
-              <a href="mailto:contact@guntewari.com" className="w-8 h-8 rounded-lg bg-white/[0.06] border border-white/[0.08] flex items-center justify-center hover:bg-[#c9a263] hover:border-[#c9a263] transition-all" aria-label="Email">
+              <a href="mailto:contact@malak.com" className="w-8 h-8 rounded-lg bg-white/[0.06] border border-white/[0.08] flex items-center justify-center hover:bg-[#c9a263] hover:border-[#c9a263] transition-all" aria-label="Email">
                 <Mail className="w-3.5 h-3.5 text-stone-400" />
               </a>
             </div>
@@ -97,7 +97,7 @@ export const LocationFooter: React.FC = () => {
             className="w-full h-40 rounded-2xl overflow-hidden border border-white/[0.08] shadow-lg"
           >
             <iframe
-              title="Hotel Guntewari Location"
+              title="Hotel Malak Location"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3819.349791012345!2d74.3006!3d16.8406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTbCsDUwJzI2LjIiTiA3NMKwMTgnMDIuMiJF!5e0!3m2!1sen!2sin!4v1680000000000!5m2!1sen!2sin"
               width="100%"
               height="100%"
@@ -111,7 +111,7 @@ export const LocationFooter: React.FC = () => {
 
         {/* Bottom Bar */}
         <div className="border-t border-white/[0.06] pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-[10px] font-light text-stone-500">
-          <div>&copy; {new Date().getFullYear()} Hotel Guntewari. All rights reserved.</div>
+          <div>&copy; {new Date().getFullYear()} Hotel Malak. All rights reserved.</div>
           <div className="flex items-center space-x-3 text-stone-600">
             <span>Pure Veg</span>
             <div className="w-1 h-1 rounded-full bg-[#c9a263]/40" />

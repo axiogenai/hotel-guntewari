@@ -28,7 +28,7 @@ export const AIFoodAssistantModal: React.FC = () => {
     {
       id: 'm-1',
       sender: 'ai',
-      text: `Welcome to Hotel Guntewari.\n\nI am your digital concierge. How may I assist you today? (e.g., *"Suggest a light appetizer"*, *"What are your signature dishes?"*, or *"A romantic dinner for two"*). I will curate selections from our menu for you.`
+      text: `Welcome to Hotel Malak.\n\nI am your digital concierge. How may I assist you today? (e.g., *"Suggest a light appetizer"*, *"What are your signature dishes?"*, or *"A romantic dinner for two"*). I will curate selections from our menu for you.`
     }
   ]);
 
@@ -54,7 +54,7 @@ export const AIFoodAssistantModal: React.FC = () => {
     setLoading(true);
 
     try {
-      const res = await askGroqFoodAssistant(query, 'Hotel Guntewari', restMenuItems);
+      const res = await askGroqFoodAssistant(query, 'Hotel Malak', restMenuItems);
       
       const matchedItems = restMenuItems.filter(i => res.recommendedItemIds.includes(i.id));
 

@@ -103,7 +103,7 @@ export const AdminPanel: React.FC = () => {
               <label className="block text-xs font-medium text-stone-500 mb-1">Venue Name</label>
               <input
                 type="text"
-                placeholder="e.g. Hotel Guntewari Annex"
+                placeholder="e.g. Hotel Malak Annex"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
                 className="w-full px-4 py-2.5 rounded-xl bg-white border border-[#ece8e1] text-xs font-medium focus:outline-none focus:border-[#c9a263]"
@@ -114,7 +114,7 @@ export const AdminPanel: React.FC = () => {
               <label className="block text-xs font-medium text-stone-500 mb-1">Slug</label>
               <input
                 type="text"
-                placeholder="guntewari-annex"
+                placeholder="malak-annex"
                 value={slug}
                 onChange={(e) => setSlug(e.target.value)}
                 className="w-full px-4 py-2.5 rounded-xl bg-white border border-[#ece8e1] text-xs font-mono focus:outline-none focus:border-[#c9a263]"

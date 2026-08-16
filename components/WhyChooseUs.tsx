@@ -34,10 +34,10 @@ export const WhyChooseUs: React.FC = () => {
             <div className="w-8 h-px bg-[#c9a263]/50" />
           </div>
           <h2 className="font-serif-display text-4xl sm:text-5xl font-normal">
-            Why <span className="italic gold-shimmer-text">Guntewari?</span>
+            Why <span className="italic gold-shimmer-text">Malak?</span>
           </h2>
           <p className="text-stone-400 font-light leading-relaxed text-sm">
-            Five pillars of excellence that define every meal at Hotel Guntewari.
+            Five pillars of excellence that define every meal at Hotel Malak.
           </p>
         </motion.div>
 

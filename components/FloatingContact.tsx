@@ -21,7 +21,7 @@ export const FloatingContact: React.FC = () => {
 
       {/* WhatsApp Link */}
       <a
-        href="https://wa.me/919822011223?text=Namaste%20Hotel%20Guntewari,%20I%20would%20like%20to%20inquire%20about%20a%20table%20reservation."
+        href="https://wa.me/919822011223?text=Namaste%20Hotel%20Malak,%20I%20would%20like%20to%20inquire%20about%20a%20table%20reservation."
         target="_blank"
         rel="noopener noreferrer"
         className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-emerald-500/10 text-emerald-400 hover:bg-emerald-500/20 flex items-center justify-center transition-colors border border-emerald-500/30"

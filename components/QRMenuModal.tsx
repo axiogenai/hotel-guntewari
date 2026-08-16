@@ -12,7 +12,7 @@ export const QRMenuModal: React.FC = () => {
 
   if (!isQRModalOpen) return null;
 
-  const restaurantUrl = `https://hotelguntewari.com/menu`;
+  const restaurantUrl = `https://hotelmalak.com/menu`;
   const qrSvgUrl = `https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=${encodeURIComponent(restaurantUrl)}`;
 
   return (
@@ -26,7 +26,7 @@ export const QRMenuModal: React.FC = () => {
               Contactless Table QR Stand
             </div>
             <h3 className="text-lg font-black text-stone-900">
-              Hotel Guntewari
+              Hotel Malak
             </h3>
           </div>
           <button
@@ -56,7 +56,7 @@ export const QRMenuModal: React.FC = () => {
           <div className="w-48 h-48 bg-white p-3 rounded-2xl mx-auto border-2 border-stone-200 shadow-md flex items-center justify-center">
             <img
               src={qrSvgUrl}
-              alt="QR Code for Hotel Guntewari Menu"
+              alt="QR Code for Hotel Malak Menu"
               className="w-full h-full object-contain"
             />
           </div>
@@ -70,7 +70,7 @@ export const QRMenuModal: React.FC = () => {
         <div className="grid grid-cols-2 gap-3 pt-2">
           <a
             href={qrSvgUrl}
-            download="hotel-guntewari-qr-stand.png"
+            download="hotel-malak-qr-stand.png"
             target="_blank"
             rel="noreferrer"
             className="py-3 px-4 rounded-xl bg-rose-600 hover:bg-rose-700 text-white font-bold text-xs transition-colors flex items-center justify-center space-x-1.5 shadow-md shadow-rose-600/20"
@@ -80,7 +80,7 @@ export const QRMenuModal: React.FC = () => {
           </a>
 
           <a
-            href={`/menu/guntewari`}
+            href={`/menu/malak`}
             target="_blank"
             rel="noreferrer"
             className="py-3 px-4 rounded-xl bg-stone-900 text-white font-bold text-xs transition-colors flex items-center justify-center space-x-1.5"

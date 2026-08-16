@@ -54,7 +54,7 @@ export const CartDrawer: React.FC = () => {
                   Culinary Selection
                 </h2>
                 <div className="text-[10px] uppercase tracking-widest font-bold text-[#b08d55]">
-                  {activeRestaurant?.name || 'Hotel Guntewari'}
+                  {activeRestaurant?.name || 'Hotel Malak'}
                 </div>
               </div>
             </div>

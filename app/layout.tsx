@@ -2,19 +2,19 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Hotel Guntewari | Pure Veg Fine Dining — Peth Vadgaon, Kolhapur",
-  description: "Experience authentic Maharashtrian & North Indian fine dining at Hotel Guntewari, Peth Vadgaon, Kolhapur. 100% pure vegetarian, AC dining, valet parking, and celebrations. Reserve your table today.",
-  keywords: ["Hotel Guntewari", "pure veg restaurant", "Peth Vadgaon", "Kolhapur", "Maharashtrian food", "fine dining", "vegetarian restaurant", "family dining"],
+  title: "Hotel Malak | Pure Veg Fine Dining — Peth Vadgaon, Kolhapur",
+  description: "Experience authentic Maharashtrian & North Indian fine dining at Hotel Malak, Peth Vadgaon, Kolhapur. 100% pure vegetarian, AC dining, valet parking, and celebrations. Reserve your table today.",
+  keywords: ["Hotel Malak", "pure veg restaurant", "Peth Vadgaon", "Kolhapur", "Maharashtrian food", "fine dining", "vegetarian restaurant", "family dining"],
   openGraph: {
-    title: "Hotel Guntewari | Pure Veg Fine Dining — Peth Vadgaon, Kolhapur",
+    title: "Hotel Malak | Pure Veg Fine Dining — Peth Vadgaon, Kolhapur",
     description: "Authentic Maharashtrian & North Indian fine dining. 100% pure vegetarian, AC dining, valet parking.",
     type: "website",
     locale: "en_IN",
-    siteName: "Hotel Guntewari",
+    siteName: "Hotel Malak",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Hotel Guntewari | Pure Veg Fine Dining",
+    title: "Hotel Malak | Pure Veg Fine Dining",
     description: "Authentic Maharashtrian & North Indian fine dining in Peth Vadgaon, Kolhapur.",
   },
 };

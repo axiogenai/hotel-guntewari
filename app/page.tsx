@@ -28,7 +28,7 @@ import { RestaurantDashboard } from '@/components/RestaurantDashboard';
 import { AdminPanel } from '@/components/AdminPanel';
 import { WhatsAppNotificationSimulator } from '@/components/WhatsAppNotificationSimulator';
 
-function HotelGuntewariWebsiteContent() {
+function HotelMalakWebsiteContent() {
   const { currentUser, orders } = useApp();
   const [activeView, setActiveView] = useState<'menu' | 'dashboard' | 'admin' | 'tracker'>('menu');
 
@@ -49,7 +49,7 @@ function HotelGuntewariWebsiteContent() {
           <OrderTracker />
         </div>
       ) : (
-        /* Hotel Guntewari Main Website Flow */
+        /* Hotel Malak Main Website Flow */
         <main className="w-full overflow-hidden">
           
 
@@ -87,7 +87,7 @@ function HotelGuntewariWebsiteContent() {
 export default function Home() {
   return (
     <AppProvider>
-      <HotelGuntewariWebsiteContent />
+      <HotelMalakWebsiteContent />
     </AppProvider>
   );
 }

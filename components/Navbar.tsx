@@ -36,7 +36,7 @@ export const Navbar: React.FC<{
             </div>
             <div>
               <div className="font-serif-display font-medium text-base sm:text-lg text-white leading-none group-hover:text-[#c9a263] transition-colors">
-                Hotel Guntewari
+                Hotel Malak
               </div>
               <div className="text-[8px] font-semibold text-[#c9a263]/70 tracking-[0.2em] uppercase">
                 Pure Veg Heritage

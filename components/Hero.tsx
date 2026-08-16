@@ -20,7 +20,7 @@ export const Hero: React.FC = () => {
         {/* Main Image */}
         <img
           src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&q=85&w=2000"
-          alt="Hotel Guntewari"
+          alt="Hotel Malak"
           className="w-full h-full object-cover"
           style={{ filter: 'brightness(0.3) contrast(1.2) saturate(1.1)' }}
         />
@@ -83,7 +83,7 @@ export const Hero: React.FC = () => {
         >
           Hotel
           <br />
-          <span className="gold-shimmer-text">Guntewari</span>
+          <span className="gold-shimmer-text">Malak</span>
         </motion.h1>
 
         {/* Gold Ornamental Divider */}

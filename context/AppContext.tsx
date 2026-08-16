@@ -94,7 +94,7 @@ const AppContext = createContext<AppContextType | undefined>(undefined);
 export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [currentUser, setCurrentUser] = useState<User>(INITIAL_USERS[0]);
   const [restaurants, setRestaurants] = useState<Restaurant[]>(INITIAL_RESTAURANTS);
-  const [activeRestaurantSlug, setActiveRestaurantSlug] = useState<string>('guntewari');
+  const [activeRestaurantSlug, setActiveRestaurantSlug] = useState<string>('malak');
   const [categories, setCategories] = useState<MenuCategory[]>(INITIAL_CATEGORIES);
   const [menuItems, setMenuItems] = useState<MenuItem[]>(INITIAL_MENU_ITEMS);
   const [tables, setTables] = useState<Table[]>(INITIAL_TABLES);
